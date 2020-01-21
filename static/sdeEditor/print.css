@@ -1,0 +1,36 @@
+/* .header{
+  background:papayawhip;
+  border-bottom: 1px solid #000;
+} */
+
+.sde-page{
+  position: relative;
+}
+
+
+
+@media print {
+  /* @page{
+		margin: 0 1cm;
+	}
+  .sde-tmp-header{
+    display: none;
+  } */
+}
+
+
+
+.print {
+
+
+
+}
+
+.print .sde-ctrl>.sde-value:before, 
+.print .sde-ctrl>.sde-revise>.sde-value-revise:before,
+.print .sde-ctrl>.sde-value:after,
+.print .sde-ctrl>.sde-revise>.sde-value-revise:after,
+.print .sde-ctrl:after
+{
+  visibility: hidden;
+}
